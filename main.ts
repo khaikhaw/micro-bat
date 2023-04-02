@@ -14,5 +14,10 @@ input.onButtonPressed(Button.B, function () {
     }
 })
 basic.forever(function () {
-    basic.showString("Hello!")
+    basic.showString("Hello Micro Cat!!")
+    basic.pause(500)
+    for (let index = 0; index < 4; index++) {
+        basic.showString("Meow!!")
+        basic.pause(100)
+    }
 })
